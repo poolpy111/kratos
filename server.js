@@ -9,17 +9,16 @@ const app = express();
 app.use(cors());
 
 app.get('/api', function(req,res) {
-    console.log('Called');
-    res.send({result: 'Helloooooo'})
+    console.log('Called: /api')
+    dbOperation.getRows().then(res_sql => {
+        res.send({result: res_sql.recordset})
+    })
+    
 })
 
-app.get('/quit', function(req,res) {
-    console.log('Called quit');
-    res.send({result: 'Good Bye'})
-})
 
-dbOperation.getRows().then(res => {
-    console.log(res.recordset)
-})
+// dbOperation.getRows().then(res => {
+//     console.log(res.recordset)
+// })
 
 app.listen(API_PORT, () => console.log(`Listening on port ${API_PORT}`));

@@ -4,7 +4,6 @@ import './App.css';
 function App() {
 
   const getData = async (url) => {
-    console.log(url)
     const newData = await fetch(url, {
       method: 'GET',
       headers: {

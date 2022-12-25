@@ -5,7 +5,6 @@ const getRows = async() => {
     try {
         let pool = await sql.connect(config);
         let rows = pool.request().query("SELECT * from tblMail")
-        console.log(rows);
         return rows;
     }
     catch(error) {
