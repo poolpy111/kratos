@@ -1,6 +1,7 @@
 {
   "name": "kratos",
   "version": "0.1.0",
+  "homepage": "https://poolpy111.github.io/kratos",
   "private": true,
   "proxy": "http://localhost:5000",
   "dependencies": {
@@ -20,6 +21,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "server": "nodemon server.js",
     "build": "react-scripts build",
