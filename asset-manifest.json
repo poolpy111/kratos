@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/kratos/static/css/main.073c9b0a.css",
-    "main.js": "/kratos/static/js/main.e9e3a47f.js",
+    "main.css": "/kratos/static/css/main.ba8bd207.css",
+    "main.js": "/kratos/static/js/main.3c57cc05.js",
     "index.html": "/kratos/index.html",
-    "main.073c9b0a.css.map": "/kratos/static/css/main.073c9b0a.css.map",
-    "main.e9e3a47f.js.map": "/kratos/static/js/main.e9e3a47f.js.map"
+    "main.ba8bd207.css.map": "/kratos/static/css/main.ba8bd207.css.map",
+    "main.3c57cc05.js.map": "/kratos/static/js/main.3c57cc05.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.e9e3a47f.js"
+    "static/css/main.ba8bd207.css",
+    "static/js/main.3c57cc05.js"
   ]
 }
